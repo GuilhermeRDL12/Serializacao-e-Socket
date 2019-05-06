@@ -1,0 +1,14 @@
+package br.com.fiap.entity;
+
+import java.io.Serializable;
+
+public class Vingador implements Serializable{
+	
+	private String nome;
+	
+	private String nomeRal;
+	
+	private String poder;
+
+	
+}

@@ -1,0 +1,14 @@
+package br.com.fiap.bo;
+
+import java.rmi.RemoteException;
+
+public class CalculadoraBOImpl implements CalculadoraBO {
+
+	@Override
+	public int somar(int n1, int n2) throws RemoteException {
+		return n1 + n2;
+	}
+	
+	
+
+}

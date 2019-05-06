@@ -1,0 +1,9 @@
+package br.com.fiap.bo;
+
+public interface CalculadoraBO extends Remote {
+	
+	int somar(int n1, int n2);
+	
+	
+
+}

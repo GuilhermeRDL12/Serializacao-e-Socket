@@ -1,0 +1,25 @@
+package br.com.fiap.teste;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class SocketServerTeste {
+	
+	public static void main(String[] args) throws Exception{
+		
+		//Receber um objeto via rede
+		ServerSocket server = new ServerSocket(1234);
+		
+		//Aguardar uma Conexão
+		Socket socket = server.accept();
+		
+		//Ler e exibir os valores do objeto vingador
+		
+		
+		socket.close();
+		server.close();
+		
+	}
+	
+
+}
